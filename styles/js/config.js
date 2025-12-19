@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Vessels",
-  url: "https://vesselsarpg.netlify.app",
+  url: "https://vesselsarpg.github.io/Vessels-ARPG/",
   description: `A Semi Open ARPG Species`
 }
 
@@ -26,7 +26,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1DMOOBkbkJGHBZZ_WYoTxQVeA_oz-PNqxYNJO70wIcWc",
+  id: "12DFQW0CeMbwKIFWkWwMia3HqxOMeK-tRdTkOA0wfHDQ",
 
   pages: {
     masterlist:    "masterlist",
