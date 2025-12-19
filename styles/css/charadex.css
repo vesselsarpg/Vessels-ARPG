@@ -15,7 +15,7 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color: #8FB7D4;
+  --cd-primary-color: #36607e;
   --cd-primary-text-color: #fff;
 
   /* ============================================================= */
@@ -27,9 +27,9 @@ body {
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color: #f8f8f8;
-  --cd-content-background-color: #ffffff;
-  --cd-faded-background-color: #f8f8f8;
+  --cd-body-background-color: #121111;
+  --cd-content-background-color: #333131;
+  --cd-faded-background-color: #585858;
 
   /* Background Extras */
   --cd-body-background-image: url();
@@ -38,7 +38,7 @@ body {
   /* Text
   ================================================================ */
   --cd-body-text-color: #303030;
-  --cd-faded-text-color: #575757;
+  --cd-faded-text-color: #bcbaba;
 
   /* ============================================================= */
   /* Borders
@@ -54,7 +54,7 @@ body {
   --cd-navbar-background-color: #222222;
   --cd-navbar-brand-color: var(--cd-primary-color);
   --cd-navbar-brand-color-hover: var(--cd-secondary-color);
-  --cd-navbar-text-color: var(--cd-content-background-color);
+  --cd-navbar-text-color: #94999f;
   --cd-navbar-link-color: var(--cd-navbar-text-color);
   --cd-navbar-link-color-hover: var(--cd-primary-color);
   --cd-navbar-font-family: var(--cd-header-font-family);
@@ -224,7 +224,7 @@ body {
 body {
 
   /* Global Text */
-  color: var(--cd-body-text-color);
+  color: #dfdfdf;
   font-family: var(--cd-body-font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -244,7 +244,7 @@ body {
 
 a,
 a:visited {
-  color: var(--cd-link-text-color);
+  color: #92b8d3;
   transition: color .2s ease-in-out;
 }
 
