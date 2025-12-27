@@ -398,33 +398,33 @@ charadex.page.masterlist = {
 
   relatedData: {
 
-    [charadex.sheet.pages.imageGallery]: {
+  [charadex.sheet.pages.imageGallery]: {
 
-    ... charadex.page.imageGallery,
+  ...charadex.page.imageGallery,
 
-    sheetPage: charadex.sheet.pages.imageGallery,
-    primaryProperty: 'design',
-    relatedProperty: 'designs',
-    dexSelector: 'gallery',
-    profileProperty: 'id',
-    profileToggle: false,
+  sheetPage: charadex.sheet.pages.imageGallery,
+  primaryProperty: 'design',
+  relatedProperty: 'designs',
+  dexSelector: 'gallery',
+  profileProperty: 'id',
+  profileToggle: false,
 
-    sort: {
-      toggle: true,
-      key: "id",
-      order: "asc",
-      parameters: []
-    },
+  sort: {
+    toggle: true,
+    key: "id",
+    order: "asc",
+    parameters: []
+  },
 
-    pagination: {
-      toggle: true,
-      bottomToggle: true,
-      amount: 12,
-    },
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 12,
+  },
 
-  }
+  },
 
-    [charadex.sheet.pages.masterlistLog]: {
+  [charadex.sheet.pages.masterlistLog]: {
 
       sheetPage: charadex.sheet.pages.masterlistLog,
       primaryProperty: 'id',
