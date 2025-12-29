@@ -39,7 +39,7 @@ charadex.sheet = {
     faq:           "faq",
     staff:         "mods",
     imageGallery:  "image gallery",
-    vinv:         "vinv",
+    vinv:          "vinv",
   },
 
   options: {
@@ -444,6 +444,33 @@ charadex.page.masterlist = {
 
   relatedData: {
 
+
+      [charadex.sheet.pages.vinv]: {
+
+    ... charadex.page.vinv,
+
+    sheetPage: charadex.sheet.pages.vinv,
+    primaryProperty: 'design',
+    relatedProperty: 'designs',
+    dexSelector: 'gallery',
+    profileProperty: 'id',
+    profileToggle: false,
+
+    sort: {
+      toggle: true,
+      key: "id",
+      order: "asc",
+      parameters: []
+    },
+
+    pagination: {
+      toggle: true,
+      bottomToggle: true,
+      amount: 12,
+    },
+
+      }
+    
   [charadex.sheet.pages.imageGallery]: {
 
   ...charadex.page.imageGallery,
