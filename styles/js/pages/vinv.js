@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   let dex = await charadex.initialize.page(
     null, 
-    charadex.page.imageGallery, 
+    charadex.page.vinv, 
     (arr) => {
       for (let entry of arr) {
 
