@@ -11,10 +11,17 @@ body {
   /* Some CSS knowledge is going to be needed to style these
   /* elements further. If you're just looking for a swatch and
   /* font swap, then you'll only need to edit the variables below.
-  /*
+  /
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
+  #header-image {
+  height: 200px; 
+  background-image: url(https://drive.google.com/file/d/1lBHvYabSnUyFhCln5PaZp4-G2AblpWTH/view?usp=drivesdk);
+  background-size: cover;
+  background-position: center;
+  }
+  
   --cd-primary-color: #36607e;
   --cd-primary-text-color: #fff;
 
