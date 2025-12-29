@@ -39,6 +39,7 @@ charadex.sheet = {
     faq:           "faq",
     staff:         "mods",
     imageGallery:  "image gallery",
+    vinv:         "vinv",
   },
 
   options: {
@@ -260,6 +261,51 @@ charadex.page.imageGallery = {
 
   sheetPage: charadex.sheet.pages.imageGallery,
   sitePage: 'gallery',
+  dexSelector: 'charadex',
+  profileProperty: 'id',
+
+  sort: {
+    toggle: true,
+    key: "id",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 12,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {}
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: true,
+    parameters: ['All', 'Designs', 'Artist']
+  },
+
+  prevNext: {
+    toggle: false,
+  },
+
+};
+
+/* vinv
+/* --------------------------------------------------------------- */
+charadex.page.vinv = {
+
+  sheetPage: charadex.sheet.pages.vinv,
+  sitePage: 'vinv',
   dexSelector: 'charadex',
   profileProperty: 'id',
 
