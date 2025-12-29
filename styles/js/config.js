@@ -305,7 +305,7 @@ charadex.page.imageGallery = {
 charadex.page.vinv = {
 
   sheetPage: charadex.sheet.pages.vinv,
-  sitePage: 'vinv',
+  sitePage: 'inventory',
   dexSelector: 'charadex',
   profileProperty: 'id',
 
