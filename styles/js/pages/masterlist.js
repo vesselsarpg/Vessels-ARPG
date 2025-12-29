@@ -24,13 +24,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       charadex.page.masterlist.relatedData['image gallery']
     );
   }
-          // Create the vinv
-  if (charadex.tools.checkArray(listData.profileArray[0].vinv)) {
-    let gallery = await charadex.initialize.page(
-      listData.profileArray[0].vinv,
-      charadex.page.masterlist.relatedData['vinv']
-    );
-  }
+          
         // Create the log dex
         if (charadex.tools.checkArray(listData.profileArray[0].masterlistlog)) {
           let logs = await charadex.initialize.page(
